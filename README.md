@@ -1,4 +1,4 @@
-### Company Scrapper
+# Company Scrapper
 
 This proof of concept aims to showcase the capabilities of a web scrapper that extracts information from VC portfolios.
 
