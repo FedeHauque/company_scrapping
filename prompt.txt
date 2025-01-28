@@ -1,0 +1,1 @@
+Extract useful information from the webpage, including its name, description, corporate webpage, email, city and country, as well as the url of the source of this information

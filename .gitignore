@@ -1,0 +1,4 @@
+__pycache__/
+companies.csv
+env/
+virtual_env/
