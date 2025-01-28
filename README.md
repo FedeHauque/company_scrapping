@@ -16,8 +16,8 @@ This file:
 All these things can also be done manually with the same commands that are included in the bash file:
 
 ```
-python -m venv virtual_env
-source ./virtual_env/Scripts/activate
+python -m venv env
+source ./env/Scripts/activate
 python -m pip install -r requirements.txt
 python -m playwright install
 python scrapper.py
