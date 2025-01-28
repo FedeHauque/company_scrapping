@@ -2,7 +2,7 @@
 
 This proof of concept aims to showcase the capabilities of a web scrapper that extracts information from VC portfolios.
 
-##How to run:
+## How to run:
 
 First make sure you have Ollama installed and running in localhost, port 11434. It can be obtained from https://ollama.com . The version to pull is ollama/llama3.2.
 
