@@ -1,6 +1,6 @@
 # Company Scrapper
 
-This proof of concept aims to showcase the capabilities of a web scrapper that extracts information from VC portfolios.
+This proof of concept aims to showcase the capabilities of a web scrapper that extracts information from VC portfolios. This tool was developed leveraging the power and LLM integrations of [Scrapegraph AI](https://github.com/ScrapeGraphAI/Scrapegraph-ai).
 
 ## How to run:
 
