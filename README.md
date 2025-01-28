@@ -4,10 +4,9 @@ This proof of concept aims to showcase the capabilities of a web scrapper that e
 
 ## How to run:
 
-First make sure you have Ollama installed and running in localhost, port 11434. It can be obtained from https://ollama.com . The version to pull is ollama/llama3.2.
+First make sure to install the Ollama LLM, which is integrated into this system. The model should be running locally on `localhost` at port `11434`. You can download and install Ollama from [here](https://ollama.com). The recommended version is `ollama/llama3.2`, but other versions can be used provided that the config file is properly modified.
 
-Once the LLM is set, there is an all-in-one bash file run.sh that sets up the whole environment and runs the scrapper. It can be both run in Linux or a git bash command line in Windows.
-This file:
+Once the LLM is set, there is an all-in-one bash file run.sh that sets up the whole environment and runs the scrapper. It can be both run in Linux or a git bash command line in Windows. This file:
   - Automatically creates a virtual environment.
   - Installs or checks the required pip packages.
   - Installs playwright.
