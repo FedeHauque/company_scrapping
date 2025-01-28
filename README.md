@@ -9,7 +9,7 @@ First make sure to install the Ollama LLM, which is integrated into this system.
 Once the LLM is set, there is an all-in-one bash file run.sh that sets up the whole environment and runs the scrapper. It can be both run in Linux or a git bash command line in Windows. This file:
   - Automatically creates a virtual environment.
   - Installs the required pip packages.
-  - Installs playwright.
+  - Installs playwright to allow webpage rendering.
   - Runs the scrapper.py file, which accesses some websites and outputs its results in a file called companies.csv
  
 All these things can also be done manually with the same commands that are included in the bash file:
