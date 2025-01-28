@@ -29,13 +29,10 @@ The urls to scrap are included in the url.txt file. Should you want to try with 
 https://www.nvfund.com/portfolio/amphista
 https://www.nvfund.com/portfolio/anaveon
 https://www.nvfund.com/portfolio/anokion
-https://www.nvfund.com/portfolio/aravax
-https://www.nvfund.com/portfolio/artios
 https://www.basf.com/global/en/who-we-are/organization/group-companies/BASF_Venture-Capital/portfolio/Group14
 https://foundry.vc/portfolio/appdirect/
 https://www.ivp.com/portfolio/robinhood/
 https://www.redpoint.com/companies/snowflake
-https://www.battery.com/company/coinbase/
 ```
 
 The model of information to be extracted is statically defined in model.py, though it can be modified should we prefer to instruct the model to extract other type of information.
@@ -51,7 +48,7 @@ class Company(BaseModel):
     email: Optional[str] = Field(default=None, description="The email address of the company")
 ```
 
-The prompt that is inputed to the model can also be modified in prompt.txt, the default text is the following:
+The prompt that is inputed to the model can also be modified in prompt.txt, the default text is the following, though it can also be modified for further refinement:
 
 ```
 Extract useful information from the webpage, including its name, description, corporate webpage, email, city and country, as well as the url of the source of this information
