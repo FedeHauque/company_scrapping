@@ -3,6 +3,7 @@ from pydantic import BaseModel, HttpUrl, Field
 
 fields = ["url", "name", "description", "source" , "country", "city", "email"]
 
+#Schema of the information to extract (Was given in the rubric)
 class Company(BaseModel):
     url: HttpUrl = Field(description="The company's website url")
     name: Optional[str] = Field(default=None, description="The name of the company")
